@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lab | CSS Responsive Cloning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class=main-header>
+    <div class="header-container">
+      <div class="input-header">
+        <div class="logo">
+          <img src="images/logo.png">
+        </div>
+        <input type="text" placeholder="Discover your next favorite things...">
+        <span class="login">... Login</span>
+        </input>
+      </div>
+    </div>
+
+    <nav class="nav-header">
+      <ul class="menu-links">
+        <li>Home</li>
+        <li>Tech</li>
+        <li>Games</li>
+        <li>Podcasts</li>
+        <li>Books</li>
+        <li>Bots</li>
+        <li>Developer</li>
+        <li>Tools</li>
+        <li>iMessage</li>
+        <li>Apps</li>
+        <li>iPhone</li>
+        <li>Photography Tools</li>
+      </ul>
+      <div class="button">
+        <button><img class="arrow" src="images/arrow-prev.png"></button>
+        <button><img class="arrow" src="images/arrow-next.png"></button>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="content">
+
+    <div class="subscribe">
+      <div class="subscribe-wrapper">
+        <p class="text"><b>Welcome to Product Hunt.</b> Get the best products in your inbox, daily.</p>
+        <div class="wrapper-searcher">
+          <input class="input" type="text" placeholder="Your email">
+          <button class="btn-orange">SUBSCRIBE</button>
+        </div>
+      </div>
+      <div class="close-subs">
+        <span><img width="10px" src="images/close.png"></span>
+      </div>
+    </div>
+
+    <div class="left-bar">
+
+      <div class="popular-week">
+        <section class="popular-header">
+          <h4 class="inside-header">Popular this week</h4>
+          <span class="close"><img width="10px" src="images/close.png"></span>
+        </section>
+        <section class="inside-content">
+          <div class="content-img">
+            <img src="images/popular-this-week/app-1.png">
+          </div>
+          <div class="content-text">
+            <h4>Duolingo Bots</h4>
+            <p>Al-powered characters to teach language</p>
+            <div class="content-buttons">
+              <button><img width="14px" src="images/votes.png">1460</button>
+              <button><img width="10px" src="images/comments.png">49</button>
+            </div>
+          </div>
+        </section>
+        <section class="inside-content">
+          <div class="content-img">
+            <img src="images/popular-this-week/app-2.png">
+          </div>
+          <div class="content-text">
+            <h4>Tribe 2.0</h4>
+            <p>Introducing Augmented Messaging</p>
+            <div class="content-buttons">
+              <button><img width="14px" src="images/votes.png">1465</button>
+              <button><img width="10px" src="images/comments.png">188</button>
+            </div>
+          </div>
+        </section>
+        <section id="facebook-content" class="inside-content">
+          <div class="content-img">
+            <img src="images/popular-this-week/app-3.png">
+          </div>
+          <div class="content-text">
+            <h4>Workplace by Facebook</h4>
+            <p>Connect everyone in your company and turn ideas into action</p>
+            <div class="content-buttons">
+              <button><img width="14px" src="images/votes.png">1003</button>
+              <button><img width="10px" src="images/comments.png">80</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="popular-today">
+        <section class="popular-header">
+          <h4 class="inside-header">Today</h4>
+        </section>
+        <section class="inside-content-today">
+          <div class="content-img-today">
+            <img src="images/today/app-1.png">
+          </div>
+          <div class="content-text-today">
+            <h4>Sprayscape</h4>
+            <p>A perfectly imperfect VR-ish camera experiment, by Google</p>
+            <div class="content-buttons">
+              <button><img width="14px" src="images/votes.png">82</button>
+              <button><img width="10px" src="images/comments.png">8</button>
+            </div>
+          </div>
+        </section>
+        <section class="inside-content-today">
+          <div class="content-img-today">
+            <img src="images/today/app-2.png">
+          </div>
+          <div class="content-text-today">
+            <h4>Ask Gary Vee</h4>
+            <p>The unofficial Gary Vee persona chatbot on Messenger!</p>
+            <div class="content-buttons">
+              <button><img width="14px" src="images/votes.png">21</button>
+              <button><img width="10px" src="images/comments.png">9</button>
+            </div>
+          </div>
+        </section>
+        <section class="inside-content-today">
+          <div class="content-img-today">
+            <img src="images/today/app-3.png">
+          </div>
+          <div class="content-text-today">
+            <h4>The Electron Wheel</h4>
+            <p>Turn your standard bicycle into an electric bike.</p>
+            <div class="content-buttons">
+              <button><img width="14px" src="images/votes.png">23</button>
+              <button><img width="10px" src="images/comments.png">2</button>
+            </div>
+          </div>
+        </section>
+        <section class="inside-content-today">
+          <div class="content-img-today">
+            <img src="images/today/app-3.png">
+          </div>
+          <div class="content-text-today">
+            <h4>Lattice Reviews</h4>
+            <p>360 degree feedback and performance reviews</p>
+            <div class="content-buttons">
+              <button><img width="14px" src="images/votes.png">21</button>
+              <button><img width="10px" src="images/comments.png">1</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <div class="right-bar">
+
+      <div class="slack-cont">
+        <div class="slack-text">
+          <h2>Kittybot for Slack</h2>
+          <p>A friendly feline that sends you cool new things.</p>
+        </div>
+        <div class="slack-button">
+          <button class="btn-orange"> # ADD KITTYBOT TO SLACK</button>
+        </div>
+      </div>
+
+      <div class="live-chat">
+        <div class="chat-title">
+          <h3>UPCOMING LIVE CHATS</h3>
+        </div>
+        <div class="chat">
+          <div class="chat-img">
+            <img src="images/today/app-2.png">
+          </div>
+          <div class="chat-text">
+            <h3>Adam Besvinick</h3>
+            <p>VC at Deep Fork Capital</p>
+            <div class="chat-button">
+              <button>REMIND ME</button>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-img">
+            <img src="images/today/app-2.png">
+          </div>
+          <div class="chat-text">
+            <h3>Susan David</h3>
+            <p>Author of Emotionality Guilty</p>
+            <div class="chat-button">
+              <button>REMIND ME</button>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-img">
+            <img src="images/today/app-2.png">
+          </div>
+          <div class="chat-text">
+            <h3>Avid Larizadeh Duggan</h3>
+            <p>General Partner al GV</p>
+            <div class="chat-button">
+              <button>REMIND ME</button>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-img">
+            <img src="images/today/app-2.png">
+          </div>
+          <div class="chat-text">
+            <h3>Katerina Markov Schneider</h3>
+            <p>Founder and CEO of Ritual</p>
+            <div class="chat-button">
+              <button>REMIND ME</button>
+            </div>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-img">
+            <img src="images/today/app-2.png">
+          </div>
+
+          <div class="chat-text">
+            <h3>Jocelyn Glei</h3>
+            <p>Master of productivity</p>
+            <div class="chat-button">
+              <button>REMIND ME</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweets">
+        <div class="chat">
+          <div class="chat-img">
+            <img src="images/today/app-2.png">
+          </div>
+          <div class="chat-text">
+            <h3>Max Pelzner</h3>
+            <p>@WhoIsMaxPelzner</p>
+            <p>'Ask <a href="">'@GaryVee'</a> is on <a href="">@ProductHunt</a>!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
